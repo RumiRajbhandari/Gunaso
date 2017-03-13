@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".ListOfContrator" />
         <activity android:name=".ContractDetails" />
-        <activity android:name=".Complain"></activity>
+        <activity android:name=".Complain" />
+        <activity android:name=".forum"></activity>
     </application>
 
 </manifest>

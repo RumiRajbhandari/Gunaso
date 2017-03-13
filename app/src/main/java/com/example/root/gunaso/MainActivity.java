@@ -41,6 +41,9 @@ public class MainActivity extends AppCompatActivity {
         forum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,forum.class);
+                startActivity(intent);
+
 
             }
         });
