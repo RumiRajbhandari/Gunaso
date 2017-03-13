@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    tools:context="com.example.root.gunaso.MainActivity">
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="40dp">
+
+      <ImageView
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:src="@drawable/contractor"
+          android:id="@+id/contractor"
+          android:tag="Click me"
+          />
+      <ImageView
+          android:id="@+id/complain"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:src="@drawable/complain"
+          android:layout_marginLeft="20dp"/>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingTop="20dp">
+      <ImageView
+
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:id="@+id/forum"
+          android:src="@drawable/forum"/>
+      <ImageView
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_marginLeft="20dp"
+          android:id="@+id/aboutus"
+          android:src="@drawable/aboutus"/>
+
+   </LinearLayout>
+
+
+
+
+</LinearLayout>

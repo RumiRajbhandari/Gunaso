@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contract Name: "
+                    android:textColor="@color/yellow"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <TextView
+
+                    android:textColor="#303F9F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="Contract Name"
+                    android:id="@+id/contract_name"
+                    />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tender Notice No: "
+                    android:textColor="@color/yellow"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+        <TextView
+            android:textColor="#303F9F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Tender notice no."
+            android:id="@+id/tender_noticeno"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Awarded to: "
+                    android:textColor="@color/yellow"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+        <TextView
+            android:textColor="#303F9F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Awarded To"
+            android:id="@+id/awarded_to"
+            /></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contract Date: "
+                    android:textColor="@color/yellow"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+        <TextView
+
+            android:textColor="#303F9F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Contract date"
+            android:id="@+id/contract_date"/>
+                </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completion Date: "
+                    android:textColor="@color/yellow"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+        <TextView
+
+            android:textColor="#303F9F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Completion date"
+            android:id="@+id/completion_date"/>
+                </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contract Amount: "
+                    android:textColor="@color/yellow"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+        <TextView
+            android:textColor="#303F9F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contract Amount"
+            android:textSize="15sp"
+            android:id="@+id/contract_amount"/>
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>
