@@ -6,10 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     ImageView contrator,complain,forum,aboutus;
+    TextView survey;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         complain=(ImageView)findViewById(R.id.complain);
         forum=(ImageView)findViewById(R.id.forum);
         aboutus=(ImageView)findViewById(R.id.aboutus);
+        survey=(TextView)findViewById(R.id.survery);
 
         contrator.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +54,16 @@ public class MainActivity extends AppCompatActivity {
         aboutus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,AboutUs.class);
+                startActivity(intent);
+
+            }
+        });
+        survey.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,survey.class);
+                startActivity(intent);
 
             }
         });

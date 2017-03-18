@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingLeft="20dp"
+    android:paddingLeft="10dp"
     tools:context="com.example.root.gunaso.MainActivity">
    <LinearLayout
        android:layout_width="wrap_content"
@@ -25,7 +25,7 @@
           android:layout_width="150dp"
           android:layout_height="150dp"
           android:src="@drawable/complain"
-          android:layout_marginLeft="20dp"/>
+          android:layout_marginLeft="5dp"/>
 
    </LinearLayout>
 
@@ -42,11 +42,25 @@
       <ImageView
           android:layout_width="150dp"
           android:layout_height="150dp"
-          android:layout_marginLeft="20dp"
+          android:layout_marginLeft="5dp"
           android:id="@+id/aboutus"
           android:src="@drawable/aboutus"/>
 
    </LinearLayout>
+   <TextView
+       android:id="@+id/survery"
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Take a Survey"
+       android:background="@color/yellow"
+       android:textSize="30sp"
+       android:textColor="#fff"
+       android:textAlignment="center"
+       android:layout_marginRight="40dp"
+       android:padding="10dp"
+
+       />
 
 
 

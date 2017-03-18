@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array
+        name="msg_to">
+        <item>Public Procurement Monitoring Office</item>
+        <item>Commission for the investigation of Abuse of Authority</item>
+        <item>National Vigilance Center</item>
+        <item>Hello Sarkar</item>
+    </string-array>
+    <string-array name="contractor">
+        <item> Darchula Tinkar Road Project</item>
+        <item> Kathmandu Ringroad Improvement Project</item>
+        <item> Gaighat Diktel Road Project</item>
+        <item>Janakpur-Jatahi Road Project, DOR</item>
+        <item>11 kilo –chhepetar-Bhaluswanra-Barpak Road</item>
+        <item> Concrete motorable bridge over Trishuli River</item>
+        <item> Hilsa Simikot Road Project</item>
+        <item>MIS-IT Unit</item>
+    </string-array>
+</resources>

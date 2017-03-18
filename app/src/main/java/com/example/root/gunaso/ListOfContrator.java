@@ -57,10 +57,6 @@ public class ListOfContrator extends AppCompatActivity {
                         ArrayList<ContratorModel> manpowerItemList=gson.fromJson(response.toString(),new TypeToken<ArrayList<ContratorModel>>(){}.getType());
                         adapter=new CustomAdapter(manpowerItemList,ListOfContrator.this);
                         recyclerView.setAdapter(adapter);
-                        Toast.makeText(ListOfContrator.this, "rumi", Toast.LENGTH_SHORT).show();
-
-
-
 
                     }
                 }, new Response.ErrorListener() {

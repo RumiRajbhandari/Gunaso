@@ -55,6 +55,7 @@
             android:background="#80ffffff"
             android:text="Take a photo" />
         <Button
+            android:id="@+id/location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableTop="@drawable/map"
